@@ -1,0 +1,29 @@
+/* & reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ^ general  */
+/* def pour color */
+:root{
+  font-size: 1100;
+}
+/* pour tout html */
+:root{
+  --primary:#be2529
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Staatliches", cursive;
+}
+/* ~ utility */
+.container{
+  display: block;
+  margin: auto;
+  max-width: 1100px;
+}

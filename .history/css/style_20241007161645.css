@@ -1,0 +1,86 @@
+/* & reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ^ general  */
+/* def pour color */
+:root {
+  --primary: #be2529;
+  --dark: #333;
+  --secondary: #0d0d0d;
+  --gray: #ddd;
+  --gray-light: #eee;
+  --gray-hint: #555;
+
+}
+
+/* pour tout html */
+:root {
+  font-size: 1100;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Staatliches", cursive;
+}
+
+a {
+  font-size: 1.6rem;
+  color: var(--dark);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ~ utility */
+.container {
+  display: block;
+  margin: auto;
+  max-width: 1100px;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+/* hover simple */
+.text-primary:hover {
+  opacity: 0.8;
+}
+
+.btn{
+  
+}
+
+/* ^ header */
+header {
+  display: grid;
+  grid-template-columns: 1F auto;
+}
+
+header .logo {
+  font-size: 3rem;
+  font-family: "Staatliches", cursive;
+}
+
+headre ul {
+  display: flex;
+}
+
+header ul li a {
+  padding: 1rem;
+}
